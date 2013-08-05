@@ -1,0 +1,1 @@
+(ns myfirstapp.core)
