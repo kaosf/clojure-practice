@@ -24,6 +24,12 @@ lein uberjar
 java -jar myfirstapp-1.0.0-SNAPSHOT-standalone.jar
 ```
 
+## Launch REPL
+
+```
+lein repl
+```
+
 ## References
 
 * [プログラミングClojure 第2版](http://www.amazon.co.jp/dp/4274069133)
