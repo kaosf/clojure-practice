@@ -12,6 +12,18 @@
 sudo aptitude install leiningen
 ```
 
+## Create project, Compile it and Execute it
+
+```
+lein new myfirstapp
+cd myfirstapp
+# edit project.clj
+# edit src/myfirstapp/core.clj
+lein uberjar
+
+java -jar myfirstapp-1.0.0-SNAPSHOT-standalone.jar
+```
+
 ## References
 
 * [プログラミングClojure 第2版](http://www.amazon.co.jp/dp/4274069133)
