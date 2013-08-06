@@ -12,7 +12,7 @@
 sudo aptitude install leiningen
 ```
 
-## Create project, Compile it and Execute it
+## Create a project, Compile it and Execute it
 
 ```
 lein new myfirstapp
