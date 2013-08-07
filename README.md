@@ -3,14 +3,20 @@
 ## My environment
 
 * Ubuntu 13.04 amd64
+* Leiningen 2.2.0
 
 ## Setup memo
 
 ```
 # setup Java 6 at first
 
-sudo aptitude install leiningen
+cd $HOME/local/bin
+wget https://raw.github.com/technomancy/leiningen/stable/bin/lein
+chmod +x lein
+./lein
 ```
+
+`sudo aptitude install leiningen` command installs leiningen version 0.1.x.
 
 ## Create a project, Compile it and Execute it
 
