@@ -28,3 +28,6 @@
     (let [n (+ a b)]
       (lazy-seq
         (cons n (lazy-seq-fibo b n))))))
+
+(defn fibo []
+  (map first (iterate (fn [[a b]] [b (+ a b)]) [0N 1N])))
