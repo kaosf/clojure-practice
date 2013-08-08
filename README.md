@@ -27,7 +27,7 @@ cd myfirstapp
 # edit src/myfirstapp/core.clj
 lein uberjar
 
-java -jar myfirstapp-1.0.0-SNAPSHOT-standalone.jar
+java -jar target/mysecondapp-1.0.0-SNAPSHOT-standalone.jar
 ```
 
 ## Launch REPL
