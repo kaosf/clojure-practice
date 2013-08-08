@@ -38,6 +38,7 @@ lein repl
 
 ## References
 
+* [The Pragmatic Bookshelf | Programming Clojure](http://pragprog.com/book/shcloj2/programming-clojure)
 * [プログラミングClojure 第2版](http://www.amazon.co.jp/dp/4274069133)
 * [Ubuntu 12.04 に Oracle Java 6, 7 (JRE, JDK) をインストール - Qiita [キータ]](http://qiita.com/ka_/items/dbeca6fac63a6e8ec9a6)
 * [Clojure - Wikipedia](http://ja.wikipedia.org/wiki/Clojure)
