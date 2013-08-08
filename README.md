@@ -36,6 +36,18 @@ java -jar target/mysecondapp-1.0.0-SNAPSHOT-standalone.jar
 lein repl
 ```
 
+## Sample codes
+
+```
+wget http://media.pragprog.com/titles/shcloj2/code/shcloj2-code.tgz
+```
+
+or
+
+```
+git clone http://github.com/stuarthalloway/programming-clojure
+```
+
 ## References
 
 * [The Pragmatic Bookshelf | Programming Clojure](http://pragprog.com/book/shcloj2/programming-clojure)
