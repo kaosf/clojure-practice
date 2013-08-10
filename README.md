@@ -3,6 +3,7 @@
 ## My environment
 
 * Ubuntu 13.04 amd64
+* Clojure 1.5.1
 * Leiningen 2.2.0
 
 ## Setup memo
