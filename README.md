@@ -22,8 +22,8 @@ chmod +x lein
 ## Create a project, Compile it and Execute it
 
 ```
-lein new myfirstapp
-cd myfirstapp
+lein new mysecondapp
+cd mysecondapp
 # edit project.clj
 # edit src/myfirstapp/core.clj
 lein uberjar
