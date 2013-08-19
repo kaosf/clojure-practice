@@ -9,7 +9,7 @@
 ## Setup memo
 
 ```
-# setup Java 6 at first
+# setup Java 6 (or 7) at first
 
 cd $HOME/local/bin
 wget https://raw.github.com/technomancy/leiningen/stable/bin/lein
