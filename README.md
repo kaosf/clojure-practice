@@ -23,6 +23,9 @@ chmod +x lein
 
 ```
 lein new app mythirdapp
+cd mythirdapp
+lein run
+#=> Hello, World!
 ```
 
 ## Launch REPL
