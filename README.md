@@ -39,6 +39,10 @@ java -jar target/mythirdapp-0.1.0-SNAPSHOT-standalone.jar arg0 arg1
 #=> Hello, World!; your arguments: (arg0 arg1)
 ```
 
+### Question
+
+What is **AOT**?
+
 ## Launch REPL
 
 ```
