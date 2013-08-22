@@ -19,13 +19,24 @@ chmod +x lein
 
 `sudo aptitude install leiningen` command installs leiningen version 0.1.x.
 
-## Create a project, Compile it and Execute it
+## Create a project, and run it
 
 ```
 lein new app mythirdapp
 cd mythirdapp
 lein run
 #=> Hello, World!
+```
+
+## Create standalone jar file
+
+```
+# edit project.clj
+# edit src/mythirdapp/core.clj
+# the changeset of these edit is like a commit e31ba90031d4ead55b034406ccfebd2229e674b7
+lein uberjar
+java -jar target/mythirdapp-0.1.0-SNAPSHOT-standalone.jar arg0 arg1
+#=> Hello, World!; your arguments: (arg0 arg1)
 ```
 
 ## Launch REPL
