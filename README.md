@@ -22,13 +22,7 @@ chmod +x lein
 ## Create a project, Compile it and Execute it
 
 ```
-lein new mysecondapp
-cd mysecondapp
-# edit project.clj
-# edit src/myfirstapp/core.clj
-lein uberjar
-
-java -jar target/mysecondapp-1.0.0-SNAPSHOT-standalone.jar
+lein new app mythirdapp
 ```
 
 ## Launch REPL
@@ -56,3 +50,5 @@ git clone http://github.com/stuarthalloway/programming-clojure
 * [Ubuntu 12.04 に Oracle Java 6, 7 (JRE, JDK) をインストール - Qiita [キータ]](http://qiita.com/ka_/items/dbeca6fac63a6e8ec9a6)
 * [Clojure - Wikipedia](http://ja.wikipedia.org/wiki/Clojure)
 * [ClojureのビルドツールLeiningenのチュートリアルを訳しました @ t100のプログラミング脱出作戦](http://t100life.blog121.fc2.com/blog-entry-207.html)
+* [Leiningen入門（再） - Starlight](http://d.hatena.ne.jp/Kazuhira/20130820/1377000175)
+* [leiningen/doc/TUTORIAL.md at stable · technomancy/leiningen](https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md)
