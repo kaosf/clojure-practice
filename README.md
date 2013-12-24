@@ -2,8 +2,15 @@
 
 ## My environment
 
-* Ubuntu 13.04 amd64
-* Leiningen 2.3.2
+* Ubuntu
+  * 12.04 amd64
+  * 13.04 amd64
+* JDK
+  * Oracle JDK 6
+  * OpenJDK 6, 7
+* Leiningen
+  * 2.3.2
+  * 2.3.4
 
 ## Setup memo
 
