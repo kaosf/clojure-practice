@@ -14,7 +14,7 @@
 
 ## Setup memo
 
-```
+```sh
 # setup Java 6 (or 7) at first
 
 cd $HOME/local/bin
@@ -27,7 +27,7 @@ chmod +x lein
 
 ## Create a project, and run it
 
-```
+```sh
 lein new app mythirdapp
 cd mythirdapp
 lein run
@@ -36,7 +36,7 @@ lein run
 
 ## Create standalone jar file
 
-```
+```sh
 # edit project.clj
 # edit src/mythirdapp/core.clj
 # the changeset of these edit is like a commit e31ba90031d4ead55b034406ccfebd2229e674b7
@@ -51,19 +51,19 @@ What is **AOT**?
 
 ## Launch REPL
 
-```
+```sh
 lein repl
 ```
 
 ## Sample codes
 
-```
+```sh
 wget http://media.pragprog.com/titles/shcloj2/code/shcloj2-code.tgz
 ```
 
 or
 
-```
+```sh
 git clone http://github.com/stuarthalloway/programming-clojure
 ```
 
